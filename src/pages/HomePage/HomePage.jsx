@@ -4,7 +4,7 @@ import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, Special
 import { Navbar } from '../../components';
 
 const HomePage = () => (
-  <div>
+  <>
     <Navbar />
     <Header />
     <AboutUs />
@@ -15,7 +15,7 @@ const HomePage = () => (
     <Gallery />
     <FindUs />
     <Footer />
-  </div>
+  </>
 
 )
 
