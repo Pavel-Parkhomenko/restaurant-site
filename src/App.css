@@ -64,7 +64,6 @@
     border-radius: 1px;
     border: none;
     outline: none;
-    cursor: pointer;
 }
 
 .p__cormorant {
@@ -73,7 +72,6 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
 }
@@ -93,7 +91,7 @@
   color: var(--color-golden);
   font-size: 64px;
   line-height: 83.2px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   text-transform: capitalize;
 }
 
@@ -133,7 +131,7 @@
   }
 
   .app__wrapper_img-reverse {
-    margin: 0 0 5rem 0;
+    margin: 1rem 0 5rem 1rem;
   }
 
   .app__wrapper_img img {
@@ -144,6 +142,14 @@
 @media screen and (max-width: 850px) {
   .section__padding {
     padding: 4rem;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section__padding {
+    padding: 2px;
+    margin: 0;
   }
 }
 
