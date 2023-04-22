@@ -12,7 +12,6 @@ const SpecialMenu = () => (
         Today's special
       </h1>
     </div>
-
     <div className='app__specialMenu-menu'>
       <div className='app__specialMenu-menu_wine flex__center'>
         <p className='app__specialMenu-menu_heading'>Wine & Beer</p>
@@ -22,7 +21,6 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
-
       <div className='app__specialMenu-menu_img'>
         <img src={images.menu} alt='menu img' />
       </div>
