@@ -10,3 +10,9 @@
 - CSS
 - react-icons
 - react-router-dom
+
+## Pages
+
+- Home
+- Login
+- Registration
